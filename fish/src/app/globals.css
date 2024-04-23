@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  background-image: repeating-linear-gradient(
+      112.5deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 14px,
+      transparent 14px,
+      transparent 15px
+    ),
+    repeating-linear-gradient(
+      22.5deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 14px,
+      transparent 14px,
+      transparent 15px
+    ),
+    linear-gradient(
+      90deg,
+      hsl(146, 54%, 44%),
+      hsl(218, 54%, 44%),
+      hsl(290, 54%, 44%),
+      hsl(2, 54%, 44%),
+      hsl(74, 54%, 44%)
+    );
+}
+
+.nav-bg {
+  background-image: repeating-linear-gradient(
+      90deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 15px,
+      transparent 15px,
+      transparent 16px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 15px,
+      transparent 15px,
+      transparent 16px
+    ),
+    linear-gradient(
+      90deg,
+      hsl(130, 19%, 33%),
+      hsl(130, 19%, 33%),
+      hsl(130, 19%, 33%),
+      hsl(130, 19%, 33%),
+      hsl(130, 19%, 33%)
+    );
+}
