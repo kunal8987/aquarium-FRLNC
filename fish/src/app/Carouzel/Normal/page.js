@@ -1,16 +1,15 @@
 "use client";
-
 import Part from "./Part";
 
-const Imported = () => {
+const Normal = () => {
   return (
     <div>
       <p className="text-white text-center text-2xl md:text-4xl font-bold p-5 md:p-10">
-        Imported Fish
+        Available In Stock
       </p>
       <Part />
     </div>
   );
 };
 
-export default Imported;
+export default Normal;

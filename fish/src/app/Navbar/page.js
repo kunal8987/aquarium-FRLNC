@@ -6,15 +6,19 @@ import { Menu, X } from "lucide-react";
 const menuItems = [
   {
     name: "Home",
-    href: "#",
+    href: "/",
   },
   {
-    name: "About",
-    href: "#",
+    name: "Fish-Food",
+    href: "../Product",
   },
   {
-    name: "Contact",
-    href: "#",
+    name: "Plants",
+    href: "../Plant",
+  },
+  {
+    name: "Betta",
+    href: "../Carouzel/Betta",
   },
 ];
 
