@@ -17,8 +17,8 @@ const menuItems = [
     href: "../Plant",
   },
   {
-    name: "Betta",
-    href: "../Carouzel/Betta",
+    name: "Contact",
+    href: "../Contact",
   },
 ];
 

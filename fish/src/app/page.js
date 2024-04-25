@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Hero from "./HeroSection/page";
 
 import Normal from "./Carouzel/Normal/page";

@@ -11,22 +11,22 @@ const PlantCard = () => {
   return (
     <div className="grid grid-cols-1 gap-4  lg:grid-cols-3 lg:gap-8 p-5">
       <div>
-        <Image alt="plant pic" src={plant1} className=" object-cover " />
+        <Image alt="plant pic" src={plant1} className=" object-cover rounded-lg " />
       </div>
       <div>
-        <Image alt="plant pic" src={plant2} className=" object-cover" />
+        <Image alt="plant pic" src={plant2} className=" object-cover rounded-lg" />
       </div>
       <div>
-        <Image alt="plant pic" src={plant3} className="object-cover" />
+        <Image alt="plant pic" src={plant3} className="object-cover rounded-lg" />
       </div>
       <div>
-        <Image alt="plant pic" src={plant4} className="object-cover" />
+        <Image alt="plant pic" src={plant4} className="object-cover rounded-lg" />
       </div>
       <div>
-        <Image alt="plant pic" src={plant5} className="object-cover" />
+        <Image alt="plant pic" src={plant5} className="object-cover rounded-lg" />
       </div>
       <div>
-        <Image alt="plant pic" src={plant6} className="object-cover" />
+        <Image alt="plant pic" src={plant6} className="object-cover rounded-lg" />
       </div>
     </div>
   );
